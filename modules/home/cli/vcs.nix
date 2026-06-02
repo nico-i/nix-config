@@ -7,7 +7,7 @@
     userEmail = "nico@ismaili.de";
     extraConfig = {
       push = {
-        autoSetupRemote = true;
+        autoSetupRemote = true; # automatically set up remote tracking branches when pushing to a new branch
       };
     };
   };

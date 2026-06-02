@@ -67,7 +67,7 @@
       homeConfigurations = {
         # each configuration here builds a home configuration based on the given configuration
         "nico@desktop" = mkHomeConfig {
-          system = "armv6l-linux";
+          system = "x86_64-linux";
           homeCfgPath = ./hosts/desktop/users/nico/home.nix;
         };
       };

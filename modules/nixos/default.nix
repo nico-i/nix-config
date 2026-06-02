@@ -138,16 +138,9 @@ in
       }:
       {
         isNormalUser = true;
-        initialPassword = "12345";
         group = "users";
-        description = "";
-        createHome = true;
         shell = pkgs.zsh;
-        extraGroups = [
-          "libvirtd"
-          "networkmanager"
-          "wheel"
-        ];
+        createHome = true;
       }
       // extraSettings
     ) (config.customNixOSConfig.home-users);
